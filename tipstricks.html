@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img src="images/CS logo.jpg" class="navbar-brand" href="#"></img>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="getstarted.html">Getting Started</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="tipstricks.html">Tips and Tricks</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Related Hobbies
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Embroidery</a></li>
+                  <li><a class="dropdown-item" href="#">Knitting</a></li>
+                  <li><a class="dropdown-item" href="#">Crochet</a></li>
+                  <li><a class="dropdown-item" href="#">Quilting</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Navbar End-->
+
+    <!--Featured-->
+    <div class="card Featured">
+        <div class="card-header">
+          New Tricks and Techniques
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Check out our most recent Patterns</h5>
+          <p class="card-text">You'll learn new techniques and tricks while completing a new beautiful stitch to gift, keep, or add to a bonfire. That part is up to you.</p>
+        </div>
+    </div>
+    <!--Featured Ends-->
+
+    <!--Cards Section-->
+    <div class="container-fluid content">
+        <h2 class="sectionHeading">Patterns</h2>
+        <div class="row newPatterns">
+  
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/but did u.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">But Did You?</h5>
+                <p class="card-text">I'm sure if you're viewing this you survived. Pick up that needle and let's stitch.</p>
+                <a href="#" class="btn btn-primary">Get the Chart</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 1 -->
+  
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/Hey Trainwreck 2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Love Trains?</h5>
+                <p class="card-text">For if you are a Trainwreck, or know a Trainwreck. Maybe this is your station... </p>
+                <a href="#" class="btn btn-primary">Get the Chart</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 2 -->
+  
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/is this a test.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Not today Satan.</h5>
+                <p class="card-text">Life testing you, stitch it out with this beautifully dark chart.</p>
+                <a href="#" class="btn btn-primary">Get the Chart</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+        </div>
+      </div>
+      <!-- End cards -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

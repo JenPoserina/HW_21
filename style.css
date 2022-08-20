@@ -25,3 +25,27 @@
   .btn-primary:hover{
     background-color: black;
   }
+  .accordion-flush{
+    border-bottom: 5px solid #202020;
+    border-top: 5px solid #202020;
+    position: relative;
+    top: 100px;
+    z-index: 100;
+  }
+  .Featured{
+    padding-top: 125px;
+    padding-bottom: 25px;
+  }
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .newPatterns  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
